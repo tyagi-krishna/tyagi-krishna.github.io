@@ -46,6 +46,7 @@ function loadData(doc) {
 }
 
 function filterProjectByTags(tag) {
+	projects.innerHTML = "";
 	if (tag !== "All") {
 		return renderData(projectData.filter((doc) => doc.tags.includes(tag)));
 	} else {
@@ -54,7 +55,6 @@ function filterProjectByTags(tag) {
 }
 
 function renderData(filteredData) {
-	projects.innerHTML = "";
 	filteredData.forEach((doc) => {
 		loadData(doc);
 	});
