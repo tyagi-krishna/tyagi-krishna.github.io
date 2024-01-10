@@ -55,6 +55,7 @@ function filterProjectByTags(tag) {
 }
 
 function renderData(filteredData) {
+	projects.innerHTML = "";
 	filteredData.forEach((doc) => {
 		loadData(doc);
 	});
