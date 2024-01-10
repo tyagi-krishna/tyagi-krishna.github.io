@@ -42,4 +42,31 @@ export const projectData = [
 		link: "",
 		repo: "https://github.com/tyagi-krishna/Blog-with-API",
 	},
+	{
+		projectName: "URL shortner",
+		projectDate: "November 2022",
+		projectDescription:
+			"This quick and secure URL shortener powered by Django. Instantly transform lengthy URLs into shareable links. Customize slugs, track analytics, and manage links effortlessly.",
+		tags: ["Django", "REST FrameWork", "SQLite"],
+		link: "",
+		repo: "https://github.com/tyagi-krishna/URL-Shortner",
+	},
+	{
+		projectName: "Django Chat APP",
+		projectDate: "November 2022",
+		projectDescription:
+			"This is a simple chatting app where people can chat by joining any rooms or by creating new rooms and sharing those Room IDs.",
+		tags: ["Django", "REST FrameWork", "SQLite"],
+		link: "",
+		repo: "https://github.com/tyagi-krishna/Django-Chat-App",
+	},
+	{
+		projectName: "Portfolio",
+		projectDate: "November 2022",
+		projectDescription:
+			"This is my personal Portfolio website that you are currently using.",
+		tags: ["HTML", "CSS", "JavaScript"],
+		link: "",
+		repo: "https://github.com/tyagi-krishna/tyagi-krishna.github.io",
+	},
 ];
