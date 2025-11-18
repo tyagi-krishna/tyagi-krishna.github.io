@@ -8,43 +8,43 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Java: Main language used for building scalable backend services, API integrations, and multi-tenant SaaS features.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Java — scalable backend services and API development">
         <DiJava />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Boot: Used to build production-ready REST APIs, authentication flows, shipping logic, and payment workflows.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Boot — REST APIs, authentication, and microservices">
         <SiSpringboot />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="MySQL: Designed optimized schemas, wrote complex queries, and improved performance using indexing & pagination.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="MySQL — optimized schemas, indexing, and performance tuning">
         <DiMysql />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="PostgreSQL: Experience working with relational data models and backend services using SQL standards.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="PostgreSQL — relational modeling and SQL workflows">
         <SiPostgresql />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Security: Worked with authentication, Keycloak integration, secure cookies, JWT, and OAuth2.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Security — authentication, Keycloak, secure cookies">
         <SiSpringsecurity />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Docker: Containerized backend services and ensured consistent development/testing environments.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Docker — containerized backend environments">
         <SiDocker />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Git: Version control, collaborative development, and managing production-grade repositories.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Git — version control and collaborative development">
         <DiGit />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="JavaScript: Used for frontend integration tasks and creating small utilities or scripts when needed.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="JavaScript — frontend scripting and utility logic">
         <SiJavascript />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Python: Used for automation, Flask middleware, and API integration tools.">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Python — automation, Flask middleware, API tools">
         <DiPython />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="C++: Strong base for Data Structures & Algorithms (350+ problems solved).">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="C++ — strong DSA and algorithms foundation">
         <CgCPlusPlus />
       </Col>
 
