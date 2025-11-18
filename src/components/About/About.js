@@ -45,7 +45,6 @@ function About() {
 
 				<Techstack />
 
-				<Github />
 			</Container>
 		</Container>
 	);

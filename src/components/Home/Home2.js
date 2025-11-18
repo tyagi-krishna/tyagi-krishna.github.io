@@ -19,45 +19,46 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m a Backend Engineer who loves building scalable, production-ready
+              systems using Java and Spring Boot.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I work extensively with
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Java, Spring Boot, MySQL, REST APIs </b>
+              </i>
+              and I enjoy solving real-world problems through clean backend
+              architecture.
+              <br />
+              <br />
+              My areas of interest include
+              <i>
+                <b className="purple"> API Integrations, Multi-Tenant SaaS, </b>
+                {" "}and backend systems involving{" "}
+                <b className="purple">shipping, billing, and authentication workflows.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I also like exploring modern tools and frameworks such as{" "}
+              <b className="purple">Keycloak</b>,{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain and Machine Learning.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Django</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Learning Frameworks
-                </b>
-              </i>
-              &nbsp; like
+                <b className="purple"> Python (Flask), Django</b>
+              </i>{" "}
+              and frontend tech like{" "}
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i>{" "}
+              whenever needed.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -70,41 +71,24 @@ function Home2() {
                   href="https://github.com/tyagi-krishna"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/krishnatyagi_00"
+                  href="https://www.linkedin.com/in/tyagi-krishna"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaLinkedinIn />
                 </a>
               </li>
+
+              {/* Removed Instagram since you want professional-only presence */}
             </ul>
           </Col>
         </Row>
@@ -112,4 +96,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

@@ -17,7 +17,7 @@ function Footer() {
 					<h3>Designed and Developed by Krishna Tyagi</h3>
 				</Col>
 				<Col md="4" className="footer-copywright">
-					<h3>Copyright © {year} KT</h3>
+					<h3>Copyright © {year} Krishna Tyagi</h3>
 				</Col>
 				<Col md="4" className="footer-body">
 					<ul className="footer-icons">
@@ -33,17 +33,7 @@ function Footer() {
 						</li>
 						<li className="social-icons">
 							<a
-								href="https://twitter.com/"
-								style={{ color: "white" }}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<AiOutlineTwitter />
-							</a>
-						</li>
-						<li className="social-icons">
-							<a
-								href="www.linkedin.com/in/krishna-tyagi-20b953250"
+								href="www.linkedin.com/in/tyagi-krishna"
 								style={{ color: "white" }}
 								target="_blank"
 								rel="noopener noreferrer"
