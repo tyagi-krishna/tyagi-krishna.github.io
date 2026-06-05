@@ -19,7 +19,8 @@ function Projects() {
           My Recent <strong className="purple">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          A few major projects and systems I have built.
+          A curated selection of production systems and notable projects
+          aligned with my backend work.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -27,25 +28,23 @@ function Projects() {
           {/* AFTERMARKET PROJECT */}
           <Col md={12} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}  // TEMPORARY — replace with real screenshot later
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Aftermarket Multi-Tenant SaaS Platform (Production Project)"
-              description="A full-scale multi-tenant SaaS platform built for aftermarket B2B eCommerce and asset management. Designed end-to-end using Java 17, Spring Boot, MySQL, React.js, and secure cookie authentication.
+              title="Aftermarket Multi‑Tenant SaaS Platform — Production"
+              description={`Enterprise aftermarket eCommerce platform (production).
+Built primarily with Java 17, Spring Boot microservices, MySQL, React.js and secured with Keycloak.
 
-Key Features:
-• Merchant-based multi-tenant architecture  
-• UPS & TForce Freight integration (rates, BOL, pickup)  
-• Custom packing logic based on weight/dimensions  
-• Automated US tax engine using TaxJar  
-• PayPal Subscriptions for billing & renewals  
-• Fraud detection (IPQS: IP, email, phone)  
-• Dynamic booking & service center scheduling system  
-• High-performance SQL, pagination, and selective column projections  
-• Migration to secure cookie-based Keycloak authentication  
-• Admin dashboards via Apache Superset
-
-This platform was deployed in production and handled real merchant workflows, logistics operations, and subscription billing."
-              ghLink="https://github.com/tyagi-krishna"
+Highlights:
+• Multi-tenant schema and strict tenant isolation
+• End-to-end order lifecycle (checkout, cancel, partial return, refunds)
+• Carrier integrations (UPS, TForce Freight) and automated label generation
+• Bin-packing shipment optimization to reduce shipping overhead
+• OpenSearch-powered parts discovery with sub-1s query latency
+• Asynchronous workflows with RabbitMQ for peak-load resilience
+• PayPal Subscriptions and TaxJar integration for billing/tax
+• Schema migrations managed with Liquibase; dashboards via Apache Superset
+Deployed to on-prem infrastructure and served real merchant traffic.`}
+              ghLink={null}
             />
           </Col>
 
@@ -54,8 +53,8 @@ This platform was deployed in production and handled real merchant workflows, lo
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Blockchain Based Certificate Generation & Verification"
-              description="A decentralized system for issuing and verifying certificates using Ethereum blockchain. Built using Solidity, Hardhat, React JS, and IPFS to ensure tamper-proof credentials and instant verification."
+              title="Blockchain Certificate Issuing & Verification"
+              description="Decentralized certificate issuance and verification using Ethereum smart contracts. Implemented with Solidity, Hardhat, React and IPFS for tamper-proof credential storage and instant on-chain verification."
               ghLink="https://github.com/tyagi-krishna/Blockchain-Certificate-App"
             />
           </Col>
@@ -65,8 +64,8 @@ This platform was deployed in production and handled real merchant workflows, lo
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Stock Market Domain with Price Predictions"
-              description="A Django-based application showing real-time NSE stock data and predicting price trends using Linear Regression (Scikit-Learn). Features interactive Matplotlib charts and financial insights."
+              title="Stock Market Prices Prediction (Django + ML)"
+              description="Django application ingesting NSE data with forecasting models (Scikit-Learn). Provides interactive charts, historical analysis, and prototype ML pipelines for price trend prediction."
               ghLink="https://github.com/tyagi-krishna/Stock-Market-Prices-Prediction"
             />
           </Col>
@@ -76,8 +75,8 @@ This platform was deployed in production and handled real merchant workflows, lo
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Blockchain Based Funding System"
-              description="A decentralized fundraising platform built using Solidity smart contracts, Hardhat, and Next.js. Provides transparent contributions, automated logic, and immutable transaction records."
+              title="Decentralized Funding Platform"
+              description="Transparent fundraising dApp built with Solidity, Hardhat and a Next.js frontend. Implements contribution flows, on-chain record keeping, and automated contract logic for funding campaigns."
               ghLink="https://github.com/tyagi-krishna/Charity-Funding-System"
             />
           </Col>
@@ -87,8 +86,8 @@ This platform was deployed in production and handled real merchant workflows, lo
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Blog Website with REST API"
-              description="A complete blog platform built using Django and Django REST Framework with authentication, CRUD operations, and REST endpoints for clean content workflows."
+              title="Blog Platform (Django + DRF)"
+              description="Blog CMS built with Django and Django REST Framework. Features user auth, admin content workflows, paginated APIs and extensible endpoint design for integrations."
               ghLink="https://github.com/tyagi-krishna/Blog-with-API"
             />
           </Col>
@@ -98,8 +97,8 @@ This platform was deployed in production and handled real merchant workflows, lo
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="URL Shortener"
-              description="A fast URL shortener built using Django, with custom slugs, analytics tracking, and efficient redirect logic."
+              title="URL Shortener (Django)"
+              description="High-performance URL shortener with custom slugs, redirect analytics, and lightweight tracking. Built with Django and optimized redirect handlers."
               ghLink="https://github.com/tyagi-krishna/URL-Shortner"
             />
           </Col>
@@ -109,8 +108,8 @@ This platform was deployed in production and handled real merchant workflows, lo
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Django Chat App"
-              description="A real-time chat application using Django and WebSockets. Users can join or create chat rooms and communicate instantly."
+              title="Django Real-Time Chat"
+              description="Real-time chat application using Django Channels and WebSockets. Supports chat rooms, user sessions, and realtime messaging patterns."
               ghLink="https://github.com/tyagi-krishna/Django-Chat-App"
             />
           </Col>
