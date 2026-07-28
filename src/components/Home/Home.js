@@ -14,23 +14,26 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Krishna Tyagi</strong>
+                I’m <strong className="main-name">Krishna Tyagi</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <p className="home-intro">
+                Backend Engineer based in Gurgaon, building scalable Java and Spring Boot systems for SaaS, HRMS, and enterprise platforms.
+              </p>
+
+              <div className="home-typewriter">
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="home-illustration">
               <img
                 src={homeLogo}
                 alt="home pic"

@@ -17,9 +17,9 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Projects</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p className="project-intro">
           A curated selection of production systems and practical backend work
-          aligned with my current resume and engineering focus.
+          that reflects my current resume, engineering depth, and focus on building impactful software.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -29,7 +29,7 @@ function Projects() {
               isBlog={false}
               title="Multi-Tenant HRMS Platform — Production"
               description="A production-grade HRMS system built around multi-tenant architecture, role-based access control, and workflow automation. Focused on secure onboarding, employee lifecycle operations, and scalable backend services for enterprise clients."
-              ghLink={null}
+              ghLink="https://github.com/tyagi-krishna"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               isBlog={false}
               title="Aftermarket Multi-Tenant SaaS Platform — Production"
               description="Enterprise aftermarket eCommerce platform handling order lifecycle, shipping integrations, refunds, carrier automation, and search at scale. Built with Java, Spring Boot, MySQL, Keycloak, RabbitMQ, and OpenSearch to support high-volume merchant operations."
-              ghLink={null}
+              ghLink="https://github.com/tyagi-krishna"
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Event-Driven Workflow Platform"
               description="Designed and implemented asynchronous, event-driven services for workflow orchestration and background processing. The system improves resilience, decouples business actions, and supports high-throughput operations under peak load."
-              ghLink={null}
+              ghLink="https://github.com/tyagi-krishna"
             />
           </Col>
 
@@ -59,7 +59,7 @@ function Projects() {
               isBlog={false}
               title="API Integration & Authentication Automation"
               description="Worked on integrations across billing, shipping, and identity systems with a strong focus on reliability and clean service boundaries. Keycloak-based RBAC, secure API flows, and automation reduced manual effort and improved consistency."
-              ghLink={null}
+              ghLink="https://github.com/tyagi-krishna"
             />
           </Col>
 

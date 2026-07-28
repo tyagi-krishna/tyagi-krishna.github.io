@@ -38,14 +38,14 @@ function ResumeNew() {
 
         <Row className="resume-intro">
           <p>
-            A current snapshot of my backend engineering experience, selected
-            projects, and education.
+            A concise snapshot of my backend engineering experience, selected
+            projects, and educational background.
           </p>
         </Row>
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 1024 ? 1.5 : width > 786 ? 1.2 : 0.7} />
           </Document>
         </Row>
 

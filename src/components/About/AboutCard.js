@@ -8,31 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi, I'm <span className="purple">Krishna Tyagi</span> from{" "}
-            <span className="purple">Ghaziabad, India</span>.
+            Hi, I’m <span className="purple">Krishna Tyagi</span> and I currently
+            live in <span className="purple">Gurgaon, India</span>.
             <br />
-            I’m a Backend Engineer with proven production experience building
-            Java / Spring Boot systems across multi-tenant SaaS, distributed
-            microservices, and enterprise platforms. I design systems from
-            scratch and eliminate critical performance bottlenecks — for
-            example, reducing API response times from 20s+ to under 2 seconds.
+            I’m a Backend Engineer with production experience building reliable
+            Java and Spring Boot systems for multi-tenant SaaS, HRMS, and
+            distributed platforms. I enjoy designing systems from the ground up,
+            improving performance, and turning business workflows into scalable,
+            maintainable backend services.
             <br />
             <br />
             Key highlights:
             <br />
-            <b className="purple">• Architected multi-tenant HRMS and SaaS platforms</b>
+            <b className="purple">• Built and scaled multi-tenant HRMS and SaaS platforms</b>
             <br />
-            <b className="purple">• Built OpenSearch-powered discovery with sub-1s latency</b>
+            <b className="purple">• Delivered OpenSearch-powered discovery with sub-1s latency</b>
             <br />
-            <b className="purple">• Engineered async workflows with RabbitMQ and Keycloak RBAC</b>
+            <b className="purple">• Implemented event-driven workflows with RabbitMQ and Keycloak RBAC</b>
             <br />
-            <b className="purple">• Automated on-prem provisioning and managed schema changes with Liquibase</b>
+            <b className="purple">• Automated provisioning and schema management with Liquibase</b>
             <br />
             <br />
             I completed my B.Tech in Computer Science (AI Specialization) in
-            <span className="purple"> June 2025</span>. I enjoy clean architecture,
-            performance tuning, automation, and integrating complex APIs to
-            deliver measurable business value.
+            <span className="purple"> June 2025</span>. I’m especially interested in
+            clean architecture, backend performance, automation, and API-driven
+            product delivery.
             <br />
             <br />
             Outside of engineering, I enjoy:

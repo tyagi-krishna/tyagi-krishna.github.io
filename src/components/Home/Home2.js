@@ -18,37 +18,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Backend Engineer with hands-on production experience building
-              scalable Java and Spring Boot systems for SaaS, microservices, and
-              enterprise platforms.
+              I’m a Backend Engineer based in Gurgaon, with hands-on production experience building scalable Java and Spring Boot systems for SaaS, HRMS, and enterprise platforms that support real business workflows.
               <br />
               <br />
               I work extensively with
               <i>
-                <b className="purple"> Java, Spring Boot, MySQL, REST APIs </b>
+                <b className="purple"> Java, Spring Boot, MySQL, REST APIs, and distributed services </b>
               </i>
-              and I enjoy solving real-world problems through clean backend
-              architecture.
+              and I enjoy turning complex requirements into reliable, maintainable backend systems.
               <br />
               <br />
-              My areas of interest include
+              My work often focuses on
               <i>
-                <b className="purple"> API integrations, multi-tenant SaaS, </b>
-                {" "}and backend systems involving{" "}
-                <b className="purple">shipping, billing, and authentication workflows.</b>
+                <b className="purple"> multi-tenant architecture, API integrations, workflow automation, and performance optimization </b>
               </i>
+              for real-world business workflows.
               <br />
               <br />
-              I also like exploring modern tools and frameworks such as{" "}
+              I also enjoy modern tooling such as{" "}
               <b className="purple">Keycloak</b>,{" "}
               <i>
-                <b className="purple"> Python (Flask), Django</b>
-              </i>{" "}
-              and frontend tech like{" "}
+                <b className="purple">RabbitMQ, OpenSearch, Liquibase, and Python</b>
+              </i>
+              {" "}while staying comfortable with modern frontend stacks like{" "}
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>{" "}
-              whenever needed.
+                <b className="purple">React.js and Next.js</b>
+              </i>
+              {" "}when needed.
             </p>
           </Col>
 
