@@ -7,13 +7,17 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const pdf = process.env.PUBLIC_URL + "/Resume.pdf";
+const pdf = process.env.PUBLIC_URL + "/Krishna-Tyagi-Resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    const handleResize = () => setWidth(window.innerWidth);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -25,11 +29,18 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            className="resume-download"
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
+        </Row>
+
+        <Row className="resume-intro">
+          <p>
+            A current snapshot of my backend engineering experience, selected
+            projects, and education.
+          </p>
         </Row>
 
         <Row className="resume">
@@ -43,10 +54,10 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            className="resume-download"
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>

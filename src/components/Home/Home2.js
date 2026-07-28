@@ -18,8 +18,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Backend Engineer who loves building scalable, production-ready
-              systems using Java and Spring Boot.
+              I’m a Backend Engineer with hands-on production experience building
+              scalable Java and Spring Boot systems for SaaS, microservices, and
+              enterprise platforms.
               <br />
               <br />
               I work extensively with
@@ -32,7 +33,7 @@ function Home2() {
               <br />
               My areas of interest include
               <i>
-                <b className="purple"> API Integrations, Multi-Tenant SaaS, </b>
+                <b className="purple"> API integrations, multi-tenant SaaS, </b>
                 {" "}and backend systems involving{" "}
                 <b className="purple">shipping, billing, and authentication workflows.</b>
               </i>
