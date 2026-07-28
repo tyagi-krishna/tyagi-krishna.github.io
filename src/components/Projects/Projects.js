@@ -23,7 +23,7 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={12} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -33,7 +33,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={12} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
