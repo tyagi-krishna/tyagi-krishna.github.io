@@ -11,28 +11,28 @@ function AboutCard() {
             Hi, I’m <span className="purple">Krishna Tyagi</span> and I currently
             live in <span className="purple">Gurgaon, India</span>.
             <br />
-            I’m a Backend Engineer with production experience building reliable
-            Java and Spring Boot systems for multi-tenant SaaS, HRMS, and
+            I'm a Backend Engineer with production experience building reliable,
+            scalable Java and Spring Boot systems for multi-tenant SaaS, HRMS, and
             distributed platforms. I enjoy designing systems from the ground up,
-            improving performance, and turning business workflows into scalable,
+            optimizing performance, and turning complex business workflows into clean,
             maintainable backend services.
             <br />
             <br />
             Key highlights:
             <br />
-            <b className="purple">• Built and scaled multi-tenant HRMS and SaaS platforms</b>
+            <b className="purple">• Architected and scaled multi-tenant HRMS and SaaS platforms</b>
             <br />
-            <b className="purple">• Delivered OpenSearch-powered discovery with sub-1s latency</b>
+            <b className="purple">• Built OpenSearch-powered discovery with sub-1s latency</b>
             <br />
             <b className="purple">• Implemented event-driven workflows with RabbitMQ and Keycloak RBAC</b>
             <br />
-            <b className="purple">• Automated provisioning and schema management with Liquibase</b>
+            <b className="purple">• Automated database provisioning and schema management with Liquibase</b>
             <br />
             <br />
             I completed my B.Tech in Computer Science (AI Specialization) in
-            <span className="purple"> June 2025</span>. I’m especially interested in
-            clean architecture, backend performance, automation, and API-driven
-            product delivery.
+            <span className="purple"> June 2025</span>. I'm passionate about
+            clean architecture, backend performance, system automation, and
+            API-driven product delivery.
             <br />
             <br />
             Outside of engineering, I enjoy:

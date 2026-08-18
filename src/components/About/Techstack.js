@@ -8,43 +8,43 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Java — scalable backend services and API development">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Java — core backend language for scalable services">
         <DiJava />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Boot — REST APIs, authentication, and microservices">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Boot — REST APIs, microservices, and enterprise applications">
         <SiSpringboot />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="MySQL — optimized schemas, indexing, and performance tuning">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="MySQL — relational databases, indexing, and optimization">
         <DiMysql />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="PostgreSQL — relational modeling and SQL workflows">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="PostgreSQL — advanced SQL, JSONB, and complex queries">
         <SiPostgresql />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Security — authentication, Keycloak, secure cookies">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Spring Security — authentication, OAuth2, Keycloak integration">
         <SiSpringsecurity />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Docker — containerized backend environments">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Docker — containerization, deployment, and orchestration">
         <SiDocker />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Git — version control and collaborative development">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Git — version control, branching strategies, and CI/CD">
         <DiGit />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="JavaScript — frontend scripting and utility logic">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="JavaScript — frontend logic, React, and Node.js">
         <SiJavascript />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="Python — automation, Flask middleware, API tools">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="Python — scripting, Django, and automation tools">
         <DiPython />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons" data-tooltip="C++ — strong DSA and algorithms foundation">
+      <Col xs={4} md={2} className="tech-icons" data-tooltip="C++ — data structures, algorithms, and system design">
         <CgCPlusPlus />
       </Col>
 

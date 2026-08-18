@@ -25,7 +25,7 @@ function Home() {
               </h1>
 
               <p className="home-intro">
-                Backend Engineer based in Gurgaon, building scalable Java and Spring Boot systems for SaaS, HRMS, and enterprise platforms.
+                Backend Engineer based in Gurgaon, building scalable and reliable Java and Spring Boot systems for multi-tenant SaaS, HRMS, and enterprise platforms.
               </p>
 
               <div className="home-typewriter">
